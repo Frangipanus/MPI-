@@ -1,0 +1,17 @@
+constraints.cmo : \
+    constraints.cmi
+constraints.cmx : \
+    constraints.cmi
+constraints.cmi :
+prooftree.cmo : \
+    prooftree.cmi
+prooftree.cmx : \
+    prooftree.cmi
+prooftree.cmi :
+test.cmo : \
+    prooftree.cmi
+test.cmx : \
+    prooftree.cmx
+unify.cmi : \
+    prooftree.cmi \
+    constraints.cmi

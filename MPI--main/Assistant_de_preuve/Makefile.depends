@@ -1,0 +1,13 @@
+my_tests.cmo : \
+    prooftree.cmi
+my_tests.cmx : \
+    prooftree.cmx
+prooftree.cmo : \
+    prooftree.cmi
+prooftree.cmx : \
+    prooftree.cmi
+prooftree.cmi :
+test.cmo : \
+    prooftree.cmi
+test.cmx : \
+    prooftree.cmx
