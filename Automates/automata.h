@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 #include <stdio.h>
-
+/*Ceci est un commentraire*/
 /* tag::type_automaton[] */
 struct transition_s {
 	int src_state;
